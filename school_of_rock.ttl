@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+
+
+dbr:Country_music rdfs:label "Country";
+    rdf:type dbo:MusicGenre;
+    dbo:musicSubgenre dbr:Rockabilly, dbr:Honkytonk, dbr:Alternative_country.
+
+dbr:Rockabilly rdfs:label "Rock A' Billy";
+    rdf:type dbo:musicSubgenre.
+
+dbr:Honkytonk rdfs:label "Honky-Tonk";
+    rdf:type dbo:musicSubgenre.
+
+dbr:Alternative_country rdfs:label "Alternative Country";
+    rdf:type dbo:musicSubgenre.
+
+dbr:Alternative_rock rdfs:label "Alternative Rock";
+    rdf:type dbo:MusicGenre;
+    dbo:musicSubgenre dbr:Indie_rock, dbr:Emo, dbr:Grunge.
+
+dbr:Indie_rock rdfs:label "Indie Rock";
+    rdf:type dbo:musicSubgenre.
+
+dbr:Emo rdfs:label "Emo";
+    rdf:type dbo:musicSubgenre.
+
+dbr:Grunge rdfs:label "Grunge";
+    rdf:type dbo:musicSubgenre.
+
+dbr:New_wave_music rdfs:label "New Wave Music";
+    rdf:type dbo:MusicGenre;
+    dbo:musicSubgenre dbr:Trance_music, dbr:Chillwave.
+
+dbr:Trance_music rdfs:label "Trance Music";
+    rdf:type dbo:musicSubgenre.
+
+dbr:Chillwave rdfs:label "Chillwave";
+    rdf:type dbo:musicSubgenre.
