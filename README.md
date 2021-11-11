@@ -1,6 +1,6 @@
 # LoCALization---WADE---Hackaton
 
-Turtle RDF data:
+Turtle RDF data > Graph:
 ![alt text](/media/rdf-grapher.png)
 
 Used:
